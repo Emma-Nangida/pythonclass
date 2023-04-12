@@ -1,6 +1,6 @@
 def year_of_birth(name,age):
     year =2023-age
-    print(f"Hello{name},you were born in{year}")
+    print(f"Hello {name},you were born in {year}")
 
 def my_country(country="Kenya"):
 
@@ -33,7 +33,7 @@ def concatenate_args(*String):
 def concatenate_kwargs(**kwargs):
      result=""
      for persons in kwargs.values():
-         result+=persons
+      result+=persons
      return result
     
 
