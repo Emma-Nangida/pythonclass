@@ -61,7 +61,11 @@ def firstname(*names):
 
 
 
-
+def even_numbers():
+    x=range(10)
+    for i in x:
+        if i %2==0:
+            print()
      
 
 
