@@ -1,8 +1,8 @@
 def even_numbers():
-    x=range(10)
+    x=range(10)  #range gives you a sequence of values
     for i in x:
         if i %2==0:
-            print()
+            print(x)
 
 def divisible_by_five():
     x=range(50)
@@ -51,6 +51,22 @@ def continue_statement():
         if x%3==0:
             continue
         print(x)
+def less_than():
+        i = 20
+        if (i <= 15):
+         print("i is smaller than 15")
+         print("i'm in if Block")
+        else:
+         print("i is greater than 15")
+         print("i'm in else Block")
+        print("i'm not in if and not in else Block")
+
+#3.write a python function named smallest that accepts
+#  a list of unsorted integers and returns the smallest number 
+# in the list.example:
+#a.smallest([3,6,8,2,4,1,5,7])
+
+#4.write a python function named di
 
 
 
